@@ -3,13 +3,13 @@ let chalk = require('chalk')
 
 global.owner = 
  [
-  ['6283811034750', 'Rezdev'],
-  ['6283811034750'],
-  ['6283811034750']
+  ['628989513496', 'Chino'],
+  ['628989513496'],
+  ['628989513496']
 ]
 
 owner = [
-  ['6283811034750', 'Rezdev', true]
+  ['628989513496', 'Rezdev', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 mods = [] // Want some help?
@@ -47,8 +47,8 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = 'Rezdev.'
-  var sticker_author = 'Rezdev'
+  var sticker_name = 'Chino.'
+  var sticker_author = 'Chino'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -69,13 +69,13 @@ global.openaikey = pickRandom(["sk-HCaMpzJWGRcLL773SuFoT3BlbkFJMJa3RUTNo0AbQcpRe
 // Sticker WM
 packname = sticker_name
 author = sticker_author
-wm = '© Rez-bot'
+wm = '© Chino'
 global.ownernya = ["6283811034750","6283811034750"]
-global.colong1 = 'Rezdev.'
-global.wm2 = 'Rezdev.'
+global.colong1 = 'Chino'
+global.wm2 = 'Chino'
 global.thumb = 'https://telegra.ph/file/cce9ab4551f7150f1970d.jpg' //Main Thumbnail
 global.sgc = 'https://chat.whatsapp.com/JB6tKrLlWv1Hv6thVWKvbU'
-global.colong2 = 'Rezdev.︎'
+global.colong2 = 'Chino'
 global.htki = '––––––『' //hiasan title kiri
 global.benar = '_*Benar*_✅'
 global.salah = '_*Salah*_❌'
@@ -86,7 +86,7 @@ global.cmenut = '❏––––––『'                       //top
 global.cmenuh = '』––––––'                        //header
 global.cmenub = '┊❀'
 global.kontak2 = [
-['6283811034750', 'Rezdev', true],
+['628989513496', 'Chino', true],
 ]
 
 multiplier = 1000 // The higher, The harder levelup
